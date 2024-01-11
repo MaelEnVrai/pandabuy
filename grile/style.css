@@ -1,0 +1,214 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+/* Style global */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* Empêche la barre de défilement horizontale */
+    background-color: #fff; /* Couleur de fond du site */
+    font-family: 'Varela Round', sans-serif; /* Appliquez la police Varela Round à tout le site */
+}
+
+/* Style de la grille */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colonnes de taille égale */
+    grid-gap: 10px; /* Espace entre les cellules */
+}
+
+/* Style de chaque cellule */
+.grid-item {
+    position: relative;
+    background-color: #fff;
+    border: 0px solid #ddd;
+    transition: background-color 0.3s; /* Transition pour le changement de couleur */
+    height: calc((100vw - 40px) / 4 * 3 / 4 - 10px); /* Hauteur basée sur la largeur de la fenêtre */
+}
+
+/* Style des images dans les cellules */
+.grid-item img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+    transition: transform 0.3s ease; /* Animation fluide pour le zoom */
+}
+
+/* Zoom sur l'image lors du survol */
+.grid-item:hover img {
+    transform: scale(1.15); /* Agrandit l'image de 15% */
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box; /* Pour inclure le padding et margin dans la largeur et la hauteur */
+}
+
+/* Style de la barre de recherche */
+#searchBar {
+    width: 50%;
+    padding: 10px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    margin-right: 0; /* Supprimez la marge à droite */
+    outline: none;
+}
+
+.button {
+    align-items: center;
+    background: #FFFFFF;
+    border: 0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    color: #1A202C;
+    display: inline-flex;
+    font-family: 'Varela Round', sans-serif; /* Assurez-vous que la police correspond à celle du site */
+    font-size: 1rem;
+    font-weight: 700;
+    height: 56px;
+    justify-content: center;
+    line-height: 24px;
+    padding: 0 24px; /* Ajustez le padding pour correspondre à la hauteur de 56px */
+    text-decoration: none;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-left: 10px; /* Ajouter de l'espace entre les boutons si nécessaire */
+}
+
+/* Style du nom dans la cellule */
+.cell-name {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px; /* Ajustez le padding pour centrer le texte */
+    border-radius: 8px; /* Coins arrondis */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+/* Style des images dans les cellules */
+.grid-item img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+#tagSelector {
+    padding: 10px;
+    margin: 0 10px; /* Ajouter de l'espace autour du sélecteur */
+    border-radius: 8px;
+    border: 0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    background: #FFFFFF;
+    color: #1A202C;
+    font-family: 'Varela Round', sans-serif;
+    height: 56px; /* Ajuster la hauteur pour qu'elle corresponde à celle des boutons et de la barre de recherche */
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+/* Ajoutez la prise en charge pour le multi-sélection dans le menu déroulant */
+#tagSelector[multiple] {
+    height: auto; /* Permettre au sélecteur de s'agrandir en fonction du nombre d'options sélectionnées */
+    overflow-y: auto;
+}
+
+/* Styles pour le menu déroulant */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    align-items: center;
+    background: #FFFFFF;
+    border: 0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    color: #1A202C;
+    display: inline-flex;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 56px;
+    justify-content: center;
+    line-height: 24px;
+    padding: 0 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-left: 0;
+}
+
+#signupButton {
+    background-color: #4CAF50; /* Couleur de fond pour Inscription, par exemple un vert */
+    color: white; /* Couleur du texte */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    max-height: 200px; /* Hauteur maximale après laquelle la barre de défilement apparaîtra */
+    overflow-y: auto; /* Active la barre de défilement si nécessaire */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Styles pour le contenu du menu déroulant */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content label {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    white-space: nowrap; /* Empêche le texte de passer à la ligne */
+    overflow: hidden; /* Masque le texte qui dépasse la largeur */
+    text-overflow: ellipsis; /* Ajoute des points de suspension si le texte déborde */
+}
+
+.dropdown-content label:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.search-tag-group {
+    display: flex;
+    gap: 10px; /* Espace entre la barre de recherche et le bouton TAG */
+}
