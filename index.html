@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grille Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Barre en haut avec recherche, menu déroulant pour les tags et boutons -->
+    <div class="top-bar">
+        <div class="search-tag-group">
+            <input type="text" id="searchBar" placeholder="Rechercher...">
+
+            <div class="dropdown">
+                <button class="dropbtn">TAG</button>
+                <div class="dropdown-content" id="tagDropdown">
+                    <!-- Les options de tags seront ajoutées ici par JavaScript -->
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">MARQUE</button>
+                <div class="dropdown-content" id="brandDropdown">
+                    <!-- Les options de marque seront ajoutées ici par JavaScript -->
+                </div>
+            </div>
+        </div>
+
+        <div class="button-group">
+            <button class="button" id="discordButton">Discord</button>
+            <button class="button" id="signupButton">Inscription</button>
+        </div>
+    </div>
+
+    <div class="grid-container" id="gridContainer">
+        <!-- Les cellules seront ajoutées ici par JavaScript -->
+    </div>
+
+    <!-- Inclure le fichier JavaScript ici -->
+    <script src="script.js"></script>
+</body>
+</html>
