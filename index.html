@@ -3,8 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grille Web</title>
+    <title>PandabuyBest</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        #mobileWarning {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: #f00;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .closeButton {
+            position: absolute;
+            top: 5px;
+            right: 10px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
     <!-- Barre en haut avec recherche, menu déroulant pour les tags et boutons -->
@@ -39,5 +59,21 @@
 
     <!-- Inclure le fichier JavaScript ici -->
     <script src="script.js"></script>
+    <div id="mobileWarning">
+        Ce site est optimisé pour les ordinateurs.
+        <span class="closeButton" onclick="closeMobileWarning()">×</span>
+    </div>
+
+    <script>
+        // Afficher le bandeau d'avertissement pour les utilisateurs mobiles
+        if (window.innerWidth <= 768) {
+            document.getElementById("mobileWarning").style.display = "block";
+        }
+
+        // Fonction pour fermer le bandeau d'avertissement
+        function closeMobileWarning() {
+            document.getElementById("mobileWarning").style.display = "none";
+        }
+    </script>
 </body>
 </html>

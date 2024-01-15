@@ -83,6 +83,13 @@
             "name": "Pull Corteiz Mohair",
             "tags": ["Jaune","Bleu"],
             "marque" : "Corteiz"
+        },
+        {
+            "image": "img/teecdg.png",
+            "link": "https://pandabuy.allapp.link/cmijrqogpf6qoog25bbg",
+            "name": "Tee-Shirt Comme Des Garçons (4 couleurs)",
+            "tags": ["Bleu","Rose","Violet","Vert","Blanc"],
+            "marque" : "Comme Des Garçons"
         }
     ]
 }
