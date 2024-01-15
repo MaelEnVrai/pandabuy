@@ -212,3 +212,48 @@ body, html {
     display: flex;
     gap: 10px; /* Espace entre la barre de recherche et le bouton TAG */
 }
+
+/* Ajoutez ces règles pour rendre le site responsive */
+@media only screen and (max-width: 600px) {
+    .top-bar {
+        flex-direction: column; /* Les éléments sont empilés les uns sur les autres en version mobile */
+        align-items: stretch; /* Les éléments prennent la largeur complète en version mobile */
+    }
+
+    #searchBar {
+        width: 100%; /* La barre de recherche prend toute la largeur en version mobile */
+        margin-bottom: 10px; /* Ajoutez une marge en bas pour l'espace */
+        align-self: stretch; /* La barre de recherche prend toute la hauteur disponible */
+    }
+
+    .button-group {
+        display: flex; /* Utilisez flex pour aligner les boutons horizontalement */
+        justify-content: space-between; /* Espacement équitable entre les boutons */
+        width: 100%; /* La ligne de boutons prend toute la largeur */
+    }
+
+    #tagButton, #brandButton, #discordButton {
+        width: 30%; /* Chaque bouton (TAG, MARQUE, Discord) occupe 30% de la largeur en version mobile */
+        align-self: stretch; /* Chaque bouton prend toute la hauteur disponible */
+    }
+
+    #discordButton {
+        align-self: flex-end; /* Aligne le bouton Discord en bas de son conteneur */
+    }
+
+    #signupButton {
+        width: 100%; /* Le bouton Inscription occupe toute la largeur en version mobile */
+        margin-top: 10px; /* Ajoutez une marge en haut pour l'espace */
+        align-self: stretch; /* Le bouton Inscription prend toute la hauteur disponible */
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr; /* Une colonne en version mobile */
+    }
+
+    .grid-item {
+        height: 25vh; /* Hauteur de chaque cellule en haut, 25% de la hauteur de la vue */
+        width: 100%; /* Largeur de chaque cellule, occupant toute la largeur */
+        margin-bottom: 10px; /* Ajoutez une marge entre les cellules en version mobile */
+    }
+}

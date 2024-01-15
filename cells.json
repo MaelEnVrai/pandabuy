@@ -4,7 +4,7 @@
             "image": "img/af1travis1.png",
             "link": "https://pandabuy.allapp.link/cme53q0gpf6qoog1kjt0",
             "name": "Air Force 1 X Travis Scott",
-            "tags": ["Blanc", "Chaussures", "Collaborations"],
+            "tags": ["Blanc","Collaborations"],
             "marque": "Nike"
         },
         {
@@ -22,11 +22,67 @@
             "marque" : "Ralph Lauren"
         },
         {
-            "image": "img/zipcdg.png",
-            "link": "https://pandabuy.allapp.link/cme57o10b4mhqi3ql8hg",
-            "name": "Doudoune Ralph Lauren (2 couleurs)",
-            "tags": ["Noir","Bleu"],
-            "marque" : "Ralph Lauren"
+            "image": "img/echarpeburberry.png",
+            "link": "https://pandabuy.allapp.link/cmi08hfm8nglvnuqahg0",
+            "name": "Écharpes Burberry (3 couleurs)",
+            "tags": ["Maron","Gris","Rose"],
+            "marque" : "Burberry"
+        },
+        {
+            "image": "img/lvbracelet.png",
+            "link": "https://pandabuy.allapp.link/cmi07dnm8nglvnuqah7g",
+            "name": "Bracelet Louis Vuitton Monogramme",
+            "tags": ["Argent","Bijoux"],
+            "marque" : "Louis Vuitton"
+        },
+        {
+            "image": "img/arcteryx.png",
+            "link": "https://pandabuy.allapp.link/cmi0as10b4mhqi3r3bo0",
+            "name": "Veste Arcteryx (5 couleurs)",
+            "tags": ["Bleu","Noir","Gris","Vert"],
+            "marque" : "Arcteryx"
+        },
+        {
+            "image": "img/salomonxt6.png",
+            "link": "https://pandabuy.allapp.link/cmi0dafm8nglvnuqaia0",
+            "name": "Salonmon XT-6 (19 couleurs)",
+            "tags": ["Bleu","Noir","Gris","Vert","Blanc","Marron","Orange","Rouge","Jaune","Rose"],
+            "marque" : "Salomon"
+        },
+        {
+            "image": "img/teestussy.png",
+            "link": "https://pandabuy.allapp.link/cmi0ns0gpf6qoog22rb0",
+            "name": "Tee-Shirt Stussy (40 couleurs)",
+            "tags": ["Noir","Blanc"],
+            "marque" : "Stussy"
+        },
+        {
+            "image": "img/bonnetmoncler.png",
+            "link": "https://pandabuy.allapp.link/cmi0pqh0b4mhqi3r3ev0",
+            "name": "Bonnet Moncler (13 couleurs)",
+            "tags": ["Noir","Rouge","Beige","Bleu","Jaune","Rose","Gris","Violet"],
+            "marque" : "Moncler"
+        },
+        {
+            "image": "img/casquettecarhartt.png",
+            "link": "https://pandabuy.allapp.link/cmi78mogpf6qoog245rg",
+            "name": "Casquette Carhartt (5 couleurs)",
+            "tags": ["Beige","Noir","Marron","Bleu","Violet"],
+            "marque" : "Carhartt"
+        },
+        {
+            "image": "img/zipburberry.png",
+            "link": "https://pandabuy.allapp.link/cmi7bn8gpf6qoog2462g",
+            "name": "Zip Burberry (2 couleurs)",
+            "tags": ["Gris","Noir"],
+            "marque" : "Burberry"
+        },
+        {
+            "image": "img/corteizmohair.png",
+            "link": "https://pandabuy.allapp.link/cmijgr10b4mhqi3r5tf0",
+            "name": "Pull Corteiz Mohair",
+            "tags": ["Jaune","Bleu"],
+            "marque" : "Corteiz"
         }
     ]
 }

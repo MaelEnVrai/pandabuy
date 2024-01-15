@@ -105,9 +105,9 @@ document.getElementById('searchBar').addEventListener('input', filterCells);
 document.addEventListener('DOMContentLoaded', loadCells);
 
 document.getElementById('discordButton').addEventListener('click', function() {
-    window.open('https://discord.com', '_blank');
+    window.open('https://discord.gg/cu23ZnNze4', '_blank');
 });
 
 document.getElementById('signupButton').addEventListener('click', function() {
-    window.open('https://signup.example.com', '_blank');
+    window.open('https://pandabuy.allapp.link/cm0g2oggpf6qoog03v5g', '_blank');
 });
