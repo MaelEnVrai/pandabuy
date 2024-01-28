@@ -4,7 +4,7 @@
             "image": "img/af1travis1.png",
             "link": "https://pandabuy.allapp.link/cme53q0gpf6qoog1kjt0",
             "name": "Air Force 1 X Travis Scott",
-            "tags": ["Blanc","Collaborations"],
+            "tags": ["Blanc"],
             "marque": "Nike"
         },
         {
@@ -25,7 +25,7 @@
             "image": "img/echarpeburberry.png",
             "link": "https://pandabuy.allapp.link/cmi08hfm8nglvnuqahg0",
             "name": "Écharpes Burberry (3 couleurs)",
-            "tags": ["Maron","Gris","Rose"],
+            "tags": ["Marron","Gris","Rose"],
             "marque" : "Burberry"
         },
         {
@@ -90,6 +90,69 @@
             "name": "Tee-Shirt Comme Des Garçons (4 couleurs)",
             "tags": ["Bleu","Rose","Violet","Vert","Blanc"],
             "marque" : "Comme Des Garçons"
+        },
+        {
+            "image": "img/strangelove.png",
+            "link": "https://pandabuy.allapp.link/cminvp10b4mhqi3r6n50",
+            "name": "Dunk Low StrangeLove",
+            "tags": ["Rose","Rouge"],
+            "marque" : "Nike"
+        },
+        {
+            "image": "img/campus.png",
+            "link": "https://pandabuy.allapp.link/cminvp10b4mhqi3r6n50",
+            "name": "Campus 00 (35 couleurs)",
+            "tags": ["Noir","Gris","Vert","Bleu","Rouge","Marron","Orange","Violet"],
+            "marque" : "Adidas"
+        },
+        {
+            "image": "img/ugg.png",
+            "link": "https://pandabuy.allapp.link/cmr8fjp0b4mgcuml49hg",
+            "name": "Ugg (3 modèles) (6 couleurs)",
+            "tags": ["Noir","Gris","Marron"],
+            "marque" : "Ugg"
+        },
+        {
+            "image": "img/chaussettestravis.png",
+            "link": "https://pandabuy.allapp.link/cmr8ivogpf6s14i68vj0",
+            "name": "Chaussettes Travis Scott (12 couleurs)",
+            "tags": ["Noir","Blanc","Marron","Rouge","Gris"],
+            "marque" : "Cactus Jack"
+        },
+        {
+            "image": "img/saccarrhart.png",
+            "link": "https://pandabuy.allapp.link/cmrcrf10b4mgcuml53t0",
+            "name": "Sac à dos Carrhart (6 couleurs)",
+            "tags": ["Noir","Bleu","Marron","Rouge","Gris"],
+            "marque" : "Carrhart"
+        },
+        {
+            "image": "img/cartegoyard.png",
+            "link": "https://pandabuy.allapp.link/cmrcsb9rogtum2surl2g",
+            "name": "Porte Carte Goyard (18 couleurs)",
+            "tags": ["Blanc","Beige","Noir","Gris","Rose","Rouge","Vert","Jaune","Bleu","Orange","Marron"],
+            "marque" : "Goyard"
+        },
+        {
+            "image": "img/saczadig.png",
+            "link": "https://pandabuy.allapp.link/cmrcvn10b4mgcuml54i0",
+            "name": "Zac Pochette Zadig et Volaire (2 couleurs)",
+            "tags": ["Noir","Blanc"],
+            "marque" : "Zadig et Voltaire"
+        },
+        {
+            "image": "img/sacocheburberry.png",
+            "link": "https://pandabuy.allapp.link/cmrd1p9rogtum2surlr0",
+            "name": "Sacoche Burberry",
+            "tags": ["Noir"],
+            "marque" : "Burberry"
+        },
+        {
+            "image": "img/sacochegoyard.png",
+            "link": "https://pandabuy.allapp.link/cmrd4kogpf6s14i69r00",
+            "name": "Sacoche Goyard (12 couleurs)",
+            "tags": ["Noir","Blanc","Jaune","Bleu","Rouge","Vert","Beige","Orange","Gris","Marron"],
+            "marque" : "Goyard"
         }
     ]
 }
