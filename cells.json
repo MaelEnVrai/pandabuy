@@ -32,7 +32,7 @@
             "image": "img/lvbracelet.png",
             "link": "https://pandabuy.allapp.link/cmi07dnm8nglvnuqah7g",
             "name": "Bracelet Louis Vuitton Monogramme",
-            "tags": ["Argent","Bijoux"],
+            "tags": ["Argent"],
             "marque" : "Louis Vuitton"
         },
         {
@@ -153,6 +153,41 @@
             "name": "Sacoche Goyard (12 couleurs)",
             "tags": ["Noir","Blanc","Jaune","Bleu","Rouge","Vert","Beige","Orange","Gris","Marron"],
             "marque" : "Goyard"
+        },
+        {
+            "image": "img/nikestussyknit.png",
+            "link": "https://pandabuy.allapp.link/cmvrnsogpf6s14i71m80",
+            "name": "Pull Nike X Stussy",
+            "tags": ["Noir","Beige"],
+            "marque" : ["Nike","Stussy"]
+        },
+        {
+            "image": "img/corteizjacket.png",
+            "link": "https://pandabuy.allapp.link/cmvrpj1rogtum2svjp30",
+            "name": "Veste Corteiz (3 couleurs)",
+            "tags": ["Noir","Gris","Jaune"],
+            "marque" : "Corteiz"
+        },
+        {
+            "image": "img/nikeskepta.png",
+            "link": "https://pandabuy.allapp.link/cmvrsvh0b4mgcumlsvu0",
+            "name": "Nike Skepta (7 couleurs)",
+            "tags": ["Bleu","Rouge","Noir","Gris","Argent"],
+            "marque" : "Nike"
+        },
+        {
+            "image": "img/niketrackpant.png",
+            "link": "https://pandabuy.allapp.link/cmvrpj1rogtum2svjp30",
+            "name": "Nike Trackpant (2 couleurs)",
+            "tags": ["Noir","Vert"],
+            "marque" : "Nike"
+        },
+        {
+            "image": "img/asycsgel.png",
+            "link": "https://pandabuy.allapp.link/cmvs1qhrogtum2svjt90",
+            "name": "Asycs Gel NYC (8 couleurs)",
+            "tags": ["Noir","Vert","Gris","Bleu","Blanc","Beige"],
+            "marque" : "Asycs"
         }
     ]
 }
